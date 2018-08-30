@@ -1,6 +1,6 @@
 # Magic the Gathering - battlefield recognition
 Uses code from - OpenCV-Playing-Card-Detector
-This is a Python program that uses OpenCV to detect and identify playing cards from a PiCamera video feed on a Raspberry Pi, a built in or USB webcam, or an IP camera. Check out the YouTube video that describes what it does and how it works:
+This is a Python program that uses OpenCV to detect and identify MTG cards from a PiCamera video feed on a Raspberry Pi, a built in or USB webcam, or an IP camera. Check out the YouTube video that describes what it does and how it works when viewing standard playing cards:
 
 https://www.youtube.com/watch?v=m-QPjO-2IkA
 
@@ -10,8 +10,11 @@ Download this repository to a directory and run CardDetector.py from that direct
 The program was originally designed to run on a Raspberry Pi with a Linux OS, but it can also be run on Windows 7/8/10. To run on Windows, download and install Anaconda (https://www.anaconda.com/download/, Python 3.6 version), launch Anaconda Prompt, and execute the program by launching IDLE (type "idle" and press ENTER in the prompt) and opening/running the CardDetector.py file in IDLE. The Anaconda environment comes with the opencv and numpy packages installed, so you don't need to install those yourself. If you are running this on Windows, you will also need to change the program to use a USB camera, as described below.
 
 The program allows you to use either a PiCamera or a USB camera. If using a USB camera, change the value of camv:
+
 1 - raspberri pi camera
+
 2 - USB/built-in laptop webcam
+
 3 - IPcamera also set url to reflect your camera's address
 
 
